@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0abbbd1a-d426-40df-b193-1874484b5caf" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
+    <list default="true" id="0abbbd1a-d426-40df-b193-1874484b5caf" name="默认更改列表" comment="index.scss &amp; TopNav.vue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shims.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shims.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Frank.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Frank2.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopNav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +47,17 @@
       <option name="presentableId" value="Default" />
       <updated>1619143980665</updated>
       <workItem from="1619143987582" duration="1365000" />
-      <workItem from="1619145573639" duration="2691000" />
+      <workItem from="1619145573639" duration="3049000" />
+      <workItem from="1619177139367" duration="1318000" />
     </task>
+    <task id="LOCAL-00001" summary="index.scss &amp; TopNav.vue">
+      <created>1619149680222</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619149680222</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,11 +76,19 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="index.scss &amp; TopNav.vue" />
+    <option name="LAST_COMMIT_MESSAGE" value="index.scss &amp; TopNav.vue" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="468" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1619147408918">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="468" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1619147408918" />
+    <state x="239" y="5" key="CommitChangelistDialog2" timestamp="1619235462355">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="239" y="5" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1619235462355" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1619145026393">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
