@@ -3,7 +3,6 @@
     <div class="g-switch-toggle-wrapper">
       <div class="g-switch-toggle"></div>
     </div>
-    <div>{{value}}</div>
   </div>
 </template>
 

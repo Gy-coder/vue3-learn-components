@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ButtonPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonPage.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
       <workItem from="1619143987582" duration="1365000" />
       <workItem from="1619145573639" duration="3049000" />
       <workItem from="1619177139367" duration="4496000" />
-      <workItem from="1620705352533" duration="13762000" />
+      <workItem from="1620705352533" duration="14953000" />
     </task>
     <task id="LOCAL-00001" summary="index.scss &amp; TopNav.vue">
       <created>1619149680222</created>
@@ -109,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620732465272</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Button 支持disabled">
+      <created>1620732900661</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1620732900661</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +137,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="index.scss &amp; TopNav.vue" />
     <MESSAGE value="完成TopNav Doc aside 的样式" />
     <MESSAGE value="路由切换之后关闭aside" />
@@ -136,17 +145,18 @@
     <MESSAGE value="创建Button组件" />
     <MESSAGE value="css最小影响原则" />
     <MESSAGE value="Button 支持size和level" />
-    <option name="LAST_COMMIT_MESSAGE" value="Button 支持size和level" />
+    <MESSAGE value="Button 支持disabled" />
+    <option name="LAST_COMMIT_MESSAGE" value="Button 支持disabled" />
   </component>
   <component name="WindowStateProjectService">
     <state x="468" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620716199019">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="468" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1620716199019" />
-    <state x="239" y="5" key="CommitChangelistDialog2" timestamp="1620732464991">
+    <state x="239" y="5" key="CommitChangelistDialog2" timestamp="1620732900387">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="239" y="5" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1620732464991" />
+    <state x="239" y="5" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1620732900387" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1619238279310">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

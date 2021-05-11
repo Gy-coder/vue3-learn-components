@@ -46,6 +46,8 @@
     <Button disabled>disabled</Button>
     <Button disabled theme="text">disabled</Button>
     <Button disabled theme="link">disabled</Button>
+    <h2>实例5</h2>
+    <Button loading>loading</Button>
   </div>
 </template>
 
