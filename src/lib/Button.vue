@@ -1,20 +1,41 @@
 <template>
   <button
     class="g-button"
-    :class="{[`g-theme-${theme}`] : theme}"
+    :class="classes"
     v-bind="$attrs">
     <slot/>
   </button>
 </template>
 
 <script lang="ts">
+  import {computed} from 'vue';
+
   export default {
     inheritAttrs: false,
     props: {
       'theme': {
         type: String,
         default: 'button'
+      },
+      'size': {
+        type: String,
+        default: 'normal'
+      },
+      'level': {
+        type: String,
+        default: 'normal'
       }
+    },
+    setup(props) {
+      const {theme, size,level} = props;
+      const classes = computed(() => {
+        return {
+          [`g-theme-${theme}`]: theme,
+          [`g-size-${size}`]: size,
+          [`g-level-${level}`] : level,
+        };
+      });
+      return {classes};
     }
   };
 </script>
@@ -26,6 +47,7 @@
   $color: #333;
   $blue: #40a9ff;
   $radius: 4px;
+  $red: red;
   .g-button {
     box-sizing: border-box;
     height: $h;
@@ -58,5 +80,85 @@
     &::-moz-focus-inner {
       border: 0;
     }
+
+    &.g-theme-link {
+      border-color: transparent;
+      box-shadow: none;
+      color: $blue;
+
+      &:hover, &:focus {
+        color: lighten($blue, 10%);
+      }
+    }
+
+    &.g-theme-text {
+      border-color: transparent;
+      box-shadow: none;
+      color: inherit;
+
+      &:hover, &:focus {
+        background: darken(white, 5%);;
+      }
+    }
+
+    &.g-size-big {
+      font-size: 24px;
+      height: 48px;
+      padding: 0 16px
+    }
+
+    &.g-size-small {
+      font-size: 12px;
+      height: 20px;
+      padding: 0 4px;
+    }
+    &.g-theme-button {
+      &.g-level-main {
+        background: $blue;
+        color: white;
+        border-color: $blue;
+        &:hover,
+        &:focus {
+          background: darken($blue, 10%);
+          border-color: darken($blue, 10%);
+        }
+      }
+      &.g-level-danger {
+        background: $red;
+        border-color: $red;
+        color: white;
+        &:hover,
+        &:focus {
+          background: darken($red, 10%);
+          border-color: darken($red, 10%);
+        }
+      }
+    }
+    &.g-theme-link {
+      &.g-level-danger {
+        color: $red;
+        &:hover,
+        &:focus {
+          color: darken($red, 10%);
+        }
+      }
+    }
+    &.g-theme-text {
+      &.g-level-main {
+        color: $blue;
+        &:hover,
+        &:focus {
+          color: darken($blue, 10%);
+        }
+      }
+      &.g-level-danger {
+        color: $red;
+        &:hover,
+        &:focus {
+          color: darken($red, 10%);
+        }
+      }
+    }
   }
+
 </style>
