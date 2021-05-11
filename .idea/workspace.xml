@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0abbbd1a-d426-40df-b193-1874484b5caf" name="默认更改列表" comment="Button 支持size和level">
+    <list default="true" id="0abbbd1a-d426-40df-b193-1874484b5caf" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ButtonPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonPage.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Button.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
       <workItem from="1619143987582" duration="1365000" />
       <workItem from="1619145573639" duration="3049000" />
       <workItem from="1619177139367" duration="4496000" />
-      <workItem from="1620705352533" duration="13462000" />
+      <workItem from="1620705352533" duration="13762000" />
     </task>
     <task id="LOCAL-00001" summary="index.scss &amp; TopNav.vue">
       <created>1619149680222</created>
@@ -103,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620730707450</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Button 支持size和level">
+      <created>1620732465272</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1620732465272</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,10 +143,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="468" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1620716199019" />
-    <state x="239" y="5" key="CommitChangelistDialog2" timestamp="1620732451680">
+    <state x="239" y="5" key="CommitChangelistDialog2" timestamp="1620732464991">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="239" y="5" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1620732451680" />
+    <state x="239" y="5" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1620732464991" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1619238279310">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

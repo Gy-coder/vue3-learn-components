@@ -2,6 +2,7 @@
   <button
     class="g-button"
     :class="classes"
+    :disabled="disabled"
     v-bind="$attrs">
     <slot/>
   </button>
@@ -13,21 +14,25 @@
   export default {
     inheritAttrs: false,
     props: {
-      'theme': {
+      theme: {
         type: String,
         default: 'button'
       },
-      'size': {
+      size: {
         type: String,
         default: 'normal'
       },
-      'level': {
+      level: {
         type: String,
         default: 'normal'
+      },
+      disabled: {
+        type: Boolean,
+        default: false,
       }
     },
     setup(props) {
-      const {theme, size,level} = props;
+      const {theme, size,level,disabled} = props;
       const classes = computed(() => {
         return {
           [`g-theme-${theme}`]: theme,
@@ -48,6 +53,7 @@
   $blue: #40a9ff;
   $radius: 4px;
   $red: red;
+  $grey: grey;
   .g-button {
     box-sizing: border-box;
     height: $h;
@@ -157,6 +163,21 @@
         &:focus {
           color: darken($red, 10%);
         }
+      }
+    }
+    &.g-theme-button {
+      &[disabled] {
+        cursor: not-allowed;
+        color: $grey;
+        &:hover {
+          border-color: $grey;
+        }
+      }
+    }
+    &.g-theme-link, &.g-theme-text {
+      &[disabled] {
+        cursor: not-allowed;
+        color: $grey;
       }
     }
   }
