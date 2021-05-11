@@ -3,6 +3,7 @@
     <div class="g-switch-toggle-wrapper">
       <div class="g-switch-toggle"></div>
     </div>
+    <div>{{value}}</div>
   </div>
 </template>
 
@@ -11,12 +12,16 @@
   import {ref} from 'vue';
 
   export default {
-    setup() {
-      const value = ref<boolean>(false);
-      const handleClick = () => {
-        value.value = !value.value
+    props: {
+      value: {
+        type: Boolean,
       }
-      return {value,handleClick}
+    },
+    setup(props, context) {
+      const handleClick = () => {
+        context.emit('update:value', !props.value);
+      };
+      return {handleClick};
     }
 
   };
@@ -24,7 +29,7 @@
 
 
 <style lang="scss" scoped>
-  $w: 60px;
+  $w: 44px;
   .g-switch {
     height: $w / 2;
     width: $w;
@@ -44,7 +49,7 @@
       height: 100%;
       width: $w / 2;
       padding: $w / 25;
-      transition: .2s;
+      transition: margin-left 250ms;
       margin-left: 0;
 
       > .g-switch-toggle {
