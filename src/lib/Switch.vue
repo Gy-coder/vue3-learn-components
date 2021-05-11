@@ -9,8 +9,6 @@
 
 
 <script lang="ts">
-  import {ref} from 'vue';
-
   export default {
     props: {
       value: {
@@ -28,7 +26,7 @@
 </script>
 
 
-<style lang="scss" scoped>
+<style lang="scss">
   $w: 44px;
   .g-switch {
     height: $w / 2;

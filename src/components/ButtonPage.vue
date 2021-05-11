@@ -1,6 +1,9 @@
 <template>
   <div>
-    <Button @click="handleClick" @focus="handleClick" @mouseover="handleClick">厉害了</Button>
+    <Button>厉害了</Button>
+    <Button theme="button">厉害了</Button>
+    <Button theme="text">厉害了</Button>
+    <Button theme="link">厉害了</Button>
   </div>
 </template>
 

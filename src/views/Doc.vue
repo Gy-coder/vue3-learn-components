@@ -33,7 +33,6 @@
   export default {
     setup() {
       const menuVisible = inject<Ref<boolean>>('xxx')
-      console.log('topnav获取的menuVisible:', menuVisible.value)
       return {menuVisible}
     },
     components:{

@@ -16,7 +16,6 @@
   export default {
     setup() {
       const menuVisible = inject<Ref<boolean>>('xxx');
-      console.log('topnav获取的menuVisible:', menuVisible.value);
       const toggleMenu = () => {
         menuVisible.value = !menuVisible.value;
       };
