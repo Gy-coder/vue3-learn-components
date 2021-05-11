@@ -51,7 +51,7 @@
       <workItem from="1619143987582" duration="1365000" />
       <workItem from="1619145573639" duration="3049000" />
       <workItem from="1619177139367" duration="4496000" />
-      <workItem from="1620705352533" duration="16373000" />
+      <workItem from="1620705352533" duration="18021000" />
     </task>
     <task id="LOCAL-00001" summary="index.scss &amp; TopNav.vue">
       <created>1619149680222</created>
@@ -130,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620746884623</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Dialog组件支持visible">
+      <created>1620747715911</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1620747715911</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,17 +168,18 @@
     <MESSAGE value="Button 支持disabled" />
     <MESSAGE value="完成 Button.vue" />
     <MESSAGE value="创建Dialog组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建Dialog组件" />
+    <MESSAGE value="Dialog组件支持visible" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dialog组件支持visible" />
   </component>
   <component name="WindowStateProjectService">
     <state x="468" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620716199019">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="468" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1620716199019" />
-    <state x="239" y="5" key="CommitChangelistDialog2" timestamp="1620746884406">
+    <state x="239" y="5" key="CommitChangelistDialog2" timestamp="1620747715706">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="239" y="5" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1620746884406" />
+    <state x="239" y="5" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1620747715706" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1619238279310">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
