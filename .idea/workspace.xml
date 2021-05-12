@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0abbbd1a-d426-40df-b193-1874484b5caf" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DialogPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogPage.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Dialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Dialog.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +51,7 @@
       <workItem from="1619143987582" duration="1365000" />
       <workItem from="1619145573639" duration="3049000" />
       <workItem from="1619177139367" duration="4496000" />
-      <workItem from="1620705352533" duration="18633000" />
+      <workItem from="1620705352533" duration="21168000" />
     </task>
     <task id="LOCAL-00001" summary="index.scss &amp; TopNav.vue">
       <created>1619149680222</created>
@@ -150,7 +151,28 @@
       <option name="project" value="LOCAL" />
       <updated>1620750672744</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Dialog添加Teleport">
+      <created>1620778679853</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1620778679853</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Dialog支持openDialog打开">
+      <created>1620782536984</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1620782536984</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Dialog支持openDialog打开">
+      <created>1620782698338</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1620782698338</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,17 +206,19 @@
     <MESSAGE value="Dialog组件支持visible" />
     <MESSAGE value="Dialog组件支持点击关闭" />
     <MESSAGE value="Dialog组件支持点击自定义title和content" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dialog组件支持点击自定义title和content" />
+    <MESSAGE value="Dialog添加Teleport" />
+    <MESSAGE value="Dialog支持openDialog打开" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dialog支持openDialog打开" />
   </component>
   <component name="WindowStateProjectService">
     <state x="468" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620716199019">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="468" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1620716199019" />
-    <state x="239" y="5" key="CommitChangelistDialog2" timestamp="1620750672506">
+    <state x="239" y="5" key="CommitChangelistDialog2" timestamp="1620782698147">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="239" y="5" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1620750672506" />
+    <state x="239" y="5" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1620782698147" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1619238279310">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
