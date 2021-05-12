@@ -1,21 +1,25 @@
 <template>
   <template v-if="visible">
-    <div class="g-dialog-overlay" @click="onClickOverlay"></div>
-    <div class="g-dialog-wrapper">
-      <div class="g-dialog">
-        <header>
-          <slot name="title" />
-          <span class="g-dialog-close" @click="close"></span>
-        </header>
-        <main>
-          <slot name="content" />
-        </main>
-        <footer>
-          <Button @click="ok">OK</Button>
-          <Button @click="cancel">Cancel</Button>
-        </footer>
+    <!-- 防止因为层级关系被遮挡   -->
+    <Teleport to="body">
+      <div class="g-dialog-overlay" @click="onClickOverlay"></div>
+      <div class="g-dialog-wrapper">
+        <div class="g-dialog">
+          <header>
+            <slot name="title" />
+            <span class="g-dialog-close" @click="close"></span>
+          </header>
+          <main>
+            <slot name="content" />
+          </main>
+          <footer>
+            <Button @click="ok">OK</Button>
+            <Button @click="cancel">Cancel</Button>
+          </footer>
+        </div>
       </div>
-    </div>
+    </Teleport>
+
   </template>
 </template>
 
