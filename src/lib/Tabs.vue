@@ -1,0 +1,3 @@
+<template>
+  tabs component
+</template>

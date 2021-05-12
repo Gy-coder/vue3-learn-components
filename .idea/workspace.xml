@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0abbbd1a-d426-40df-b193-1874484b5caf" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/IconPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/Icon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/Tab.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DialogPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Dialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Dialog.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SwitchPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabsPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +58,7 @@
       <workItem from="1619143987582" duration="1365000" />
       <workItem from="1619145573639" duration="3049000" />
       <workItem from="1619177139367" duration="4496000" />
-      <workItem from="1620705352533" duration="21168000" />
+      <workItem from="1620705352533" duration="29617000" />
     </task>
     <task id="LOCAL-00001" summary="index.scss &amp; TopNav.vue">
       <created>1619149680222</created>
@@ -172,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620782698338</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Dialog支持openDialog打开">
+      <created>1620783577485</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1620783577485</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,21 +229,37 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="468" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1620716199019" />
-    <state x="239" y="5" key="CommitChangelistDialog2" timestamp="1620782698147">
+    <state x="239" y="5" key="CommitChangelistDialog2" timestamp="1620783577214">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="239" y="5" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1620782698147" />
-    <state x="141" y="39" key="SettingsEditor" timestamp="1619238279310">
+    <state x="239" y="5" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1620783577214" />
+    <state width="1259" height="221" key="GridCell.Tab.0.bottom" timestamp="1620787183167">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1619238279310" />
+    <state width="1259" height="221" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1620787183167" />
+    <state width="1259" height="221" key="GridCell.Tab.0.center" timestamp="1620787183164">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="221" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1620787183164" />
+    <state width="1259" height="221" key="GridCell.Tab.0.left" timestamp="1620787183163">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="221" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1620787183163" />
+    <state width="1259" height="221" key="GridCell.Tab.0.right" timestamp="1620787183166">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="221" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1620787183166" />
+    <state x="141" y="39" key="SettingsEditor" timestamp="1620784274931">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1620784274931" />
     <state x="302" y="164" width="675" height="472" key="find.popup" timestamp="1620730969301">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="302" y="164" width="675" height="472" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1620730969301" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1620730958956">
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1620786164837">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1620730958956" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1620786164837" />
   </component>
 </project>

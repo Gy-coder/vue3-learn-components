@@ -12,6 +12,8 @@ import DialogPage from './components/DialogPage.vue'
 // @ts-ignore
 import TabsPage from './components/TabsPage.vue'
 // @ts-ignore
+import IconPage from './components/IconPage.vue'
+// @ts-ignore
 import DocDemo from './components/DocDemo.vue'
 const history = createWebHashHistory();
 const router = createRouter({
@@ -39,6 +41,10 @@ const router = createRouter({
           path: 'tabs',
           component: TabsPage,
         },
+        {
+          path: 'icon',
+          component: IconPage
+        }
       ]}
   ]
 });
