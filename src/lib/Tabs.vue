@@ -4,7 +4,7 @@
       <div class="g-tabs-nav-item"
            :class="{selected: t === selected}"
            @click="handleClick(t)"
-           :ref="el=>{if(el) navItems[index] = el}"
+           :ref="el=>{if(t === selected) selectedItem = el}"
            v-for="(t,index) in titles" :key="index">{{ t }}
       </div>
       <div class="g-tabs-nav-item-indicator" ref="indicator"></div>
@@ -30,13 +30,11 @@ export default {
   },
   setup(props, context) {
     const defaults = context.slots.default();
-    const navItems = ref<HTMLDivElement[]>([]);
+    const selectedItem = ref<HTMLDivElement>(null)
     const indicator = ref<HTMLDivElement>(null);
     const container = ref<HTMLDivElement>(null);
     const x = ()=>{
-      const divs = navItems.value;
-      const result = divs.filter(div => div.classList.contains('selected'))[0];
-      const {width, left: left2} = result.getBoundingClientRect();
+      const {width, left: left2} = selectedItem.value.getBoundingClientRect();
       const {left:left1} = container.value.getBoundingClientRect();
       indicator.value.style.width = width + 'px';
       const left = left2 - left1;
@@ -55,7 +53,7 @@ export default {
     const handleClick = (title) => {
       context.emit('update:selected', title);
     };
-    return {defaults, titles, handleClick, navItems, indicator, container};
+    return {defaults, titles, handleClick, selectedItem, indicator, container};
   }
 };
 </script>

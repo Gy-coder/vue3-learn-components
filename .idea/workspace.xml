@@ -4,7 +4,6 @@
     <list default="true" id="0abbbd1a-d426-40df-b193-1874484b5caf" name="默认更改列表" comment="">
       <change afterPath="$PROJECT_DIR$/src/components/IconPage.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/lib/Icon.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +54,7 @@
       <workItem from="1619177139367" duration="4496000" />
       <workItem from="1620705352533" duration="34483000" />
       <workItem from="1620960640632" duration="2041000" />
-      <workItem from="1620967331997" duration="6996000" />
+      <workItem from="1620967331997" duration="7438000" />
     </task>
     <task id="LOCAL-00001" summary="index.scss &amp; TopNav.vue">
       <created>1619149680222</created>
@@ -204,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620963534957</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Tabs支持下滑">
+      <created>1620984191111</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1620984191111</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,44 +248,7 @@
     <MESSAGE value="创建Tabs和Tab组件" />
     <MESSAGE value="渲染Tabs内容" />
     <MESSAGE value="支持Tabs点击切换" />
-    <option name="LAST_COMMIT_MESSAGE" value="支持Tabs点击切换" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="468" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620716199019">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="468" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1620716199019" />
-    <state x="239" y="23" width="798" height="777" key="CommitChangelistDialog2" timestamp="1620963534680">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="239" y="23" width="798" height="777" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1620963534680" />
-    <state width="1259" height="221" key="GridCell.Tab.0.bottom" timestamp="1620960501455">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1259" height="221" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1620960501455" />
-    <state width="1259" height="221" key="GridCell.Tab.0.center" timestamp="1620960501454">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1259" height="221" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1620960501454" />
-    <state width="1259" height="221" key="GridCell.Tab.0.left" timestamp="1620960501452">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1259" height="221" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1620960501452" />
-    <state width="1259" height="221" key="GridCell.Tab.0.right" timestamp="1620960501455">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1259" height="221" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1620960501455" />
-    <state x="141" y="39" key="SettingsEditor" timestamp="1620784274931">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1620784274931" />
-    <state x="302" y="164" width="675" height="472" key="find.popup" timestamp="1620730969301">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="302" y="164" width="675" height="472" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1620730969301" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1620786164837">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1620786164837" />
+    <MESSAGE value="Tabs支持下滑" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tabs支持下滑" />
   </component>
 </project>
