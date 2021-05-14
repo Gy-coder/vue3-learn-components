@@ -5,9 +5,7 @@
       <change afterPath="$PROJECT_DIR$/src/components/IconPage.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/lib/Icon.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DialogPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SwitchPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Tab.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tab.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabsPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsPage.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +54,7 @@
       <workItem from="1619145573639" duration="3049000" />
       <workItem from="1619177139367" duration="4496000" />
       <workItem from="1620705352533" duration="34483000" />
-      <workItem from="1620960640632" duration="391000" />
+      <workItem from="1620960640632" duration="1832000" />
     </task>
     <task id="LOCAL-00001" summary="index.scss &amp; TopNav.vue">
       <created>1619149680222</created>
@@ -191,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620811781134</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="渲染Tabs内容">
+      <created>1620961346222</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1620961346222</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,17 +233,18 @@
     <MESSAGE value="Dialog添加Teleport" />
     <MESSAGE value="Dialog支持openDialog打开" />
     <MESSAGE value="创建Tabs和Tab组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建Tabs和Tab组件" />
+    <MESSAGE value="渲染Tabs内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="渲染Tabs内容" />
   </component>
   <component name="WindowStateProjectService">
     <state x="468" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620716199019">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="468" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1620716199019" />
-    <state x="239" y="5" key="CommitChangelistDialog2" timestamp="1620811780856">
+    <state x="239" y="23" width="798" height="777" key="CommitChangelistDialog2" timestamp="1620961345892">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="239" y="5" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1620811780856" />
+    <state x="239" y="23" width="798" height="777" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1620961345892" />
     <state width="1259" height="221" key="GridCell.Tab.0.bottom" timestamp="1620960501455">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
