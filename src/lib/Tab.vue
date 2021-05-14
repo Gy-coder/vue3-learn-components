@@ -1,3 +1,8 @@
 <template>
-  tab component
+  <div>
+    <slot />
+  </div>
 </template>
+
+<script lang="ts">
+</script>

@@ -1,6 +1,7 @@
 <template>
   <div>
     <Switch :value="bool" @update:value="bool = $event"></Switch>
+    {{bool}}
     <br>
 <!--    <Switch v-model:value="bool"/>-->
   </div>
